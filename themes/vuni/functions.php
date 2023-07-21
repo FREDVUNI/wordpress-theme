@@ -16,4 +16,10 @@ add_action('after_setup_theme', function () {
     add_theme_support('title-tag');
 });
 
+//register menu (this theme only has one in the sidebar)
 
+register_nav_menus(
+    array(
+        'head_menu' => 'Main menu',
+    )
+);
