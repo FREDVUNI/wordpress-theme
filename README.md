@@ -66,6 +66,11 @@ Before starting the conversion process, make sure you have the following:
 4. Mention any dependencies or plugins required for the theme to work correctly.
 5. Add information about theme customization options and available shortcodes (if any).
 
+## Screenshot
+
+![image](https://github.com/FREDVUNI/wordpress-theme/assets/41730664/ef7450d1-72f8-4c35-b00f-e5933c2ae1d5)
+
+
 ## Conclusion
 
 By following these steps, you should now have successfully converted your HTML/CSS template into a fully functional WordPress theme. Remember to keep your theme updated with the latest WordPress standards and best practices to ensure a smooth user experience and to make it easy to maintain and extend in the future. Happy theming!
