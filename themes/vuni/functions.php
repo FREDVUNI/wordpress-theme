@@ -4,7 +4,7 @@
 add_action('wp_enqueue_scripts', function () {
     wp_enqueue_style("main-styles", get_stylesheet_directory_uri() . "/assets/css/main.css");
 
-    wp_enqueue_script("jquery", get_stylesheet_directory_uri() . "/assets/js/jquery.min.js");
+    wp_enqueue_script("jquery");
     wp_enqueue_script("scrollex", get_stylesheet_directory_uri() . "/assets/js/jquery.min.js", array('jquery'));
     wp_enqueue_script("skel", get_stylesheet_directory_uri() . "/assets/js/skel.min.js", array('jquery'));
     wp_enqueue_script("util", get_stylesheet_directory_uri() . "/assets/js/util.js", array('jquery'));
