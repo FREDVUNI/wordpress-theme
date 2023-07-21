@@ -1,3 +1,10 @@
+<?php
+
+/*
+ * Template name: Home!
+ */
+
+?>
 <!DOCTYPE HTML>
 <html>
 
@@ -131,7 +138,7 @@
     </footer>
 
     <!-- Scripts -->
-    <?php  wp_footer(); ?>
+    <?php wp_footer(); ?>
 
 </body>
 
