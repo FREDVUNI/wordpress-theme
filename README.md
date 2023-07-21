@@ -1,4 +1,4 @@
-# Converting HTML/CSS Template to WordPress Theme
+# Converting HTML/CSS/JS Template to WordPress Theme
 
 In this guide, we'll walk you through the process of converting an existing HTML/CSS template into a fully functional WordPress theme. This will enable you to easily manage and update your website content using the powerful WordPress CMS (Content Management System).
 
