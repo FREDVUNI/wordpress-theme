@@ -5,7 +5,7 @@
     <title>Great theme for WordPress</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/main.css" />
+    <?php wp_head();?>
 </head>
 
 <body>
@@ -131,11 +131,7 @@
     </footer>
 
     <!-- Scripts -->
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/jquery.min.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/jquery.scrollex.min.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/skel.min.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/util.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/main.js"></script>
+    <?php wp_footer();?>
 
 </body>
 
